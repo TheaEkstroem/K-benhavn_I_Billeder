@@ -1,6 +1,20 @@
 ---
+import Link from '../components/Link.astro'
 ---
-<div>
-<p>Footer - tilføj footerindhold</p>
+    <div class="bg-gradient-to-l from-zinc-50 to-zinc-300 py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <ul class="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6">
+        <li class=""><Link size="text-mg" href="#Kapitler" >Kapitler</Link></li><!-- alternativt: lav et <a href="">Link</a>, hvis du ikke vil bruge Link.astro komponenten -->
+        <li class=""><Link size="text-mg" href="#Anmeldelse" >Anmeldelse</Link></li>
+        <li class=""><Link size="text-mg" href="#galleri" >galleri</Link></li>
+        <li class=""><Link size="text-mg" href="#Køb" >Køb</Link></li>
+        
+      </ul>
+  
+      <!-- Footer Bottom Section -->
+      <div class="mt-4 text-center">
+        <p class="text-sm text-gray-300">&copy; 2024 Company Name. All rights reserved.</p>
+      </div>
+    </div>
 </div>
   
